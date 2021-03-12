@@ -67,7 +67,7 @@ html, body {
 }
 
 .center {
-    width: 800px;
+    width: 600px;
 	padding: 2%;
     margin: 100px auto;
  	background: rgba(0, 0, 0, .7); /*this uses opacity of 75% for the background color*/
@@ -103,18 +103,24 @@ h2 {
 }*/
 
 p {
-	font-family: "helvetica", sans-serif;
-	font-size: 1em;
-    font-weight: 100;
+	font-family: proxima-nova,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1em;
+    /* removedfont-family: "helvetica", sans-serif;
+    font-weight: 100; */
     line-height: 1.6;
     color: #fff;
 }
 
 nav{
-    font-family: "helvetica", sans-serif;
-    font-size: 1.2em;
-    width: 400px;
-    margin: 0 auto;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 0.9em;
+    letter-spacing: 2px;
+    width: 600px;
+    margin: 10px auto;
     /* removed border: dashed turquoise;
     border-width: 3px 0; */
     text-align: center;
@@ -127,7 +133,7 @@ nav li{
 
 nav a{
     display: inline block;
-    padding: 10px;
+    padding: 5px 10px;
 }
 
 a{
@@ -137,8 +143,8 @@ a{
 }
 
 a:hover{
-    color: white;
-    background: rgba(0, 0, 0, 0.6);
+    color: rgba(147, 175, 152, 1);
+    /* removed background: rgba(147, 175, 152, 0.6); */
 }
     
 
