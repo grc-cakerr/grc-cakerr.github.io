@@ -70,7 +70,7 @@ html, body {
     width: 600px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(0, 0, 0, .7); /*this uses opacity of 75% for the background color*/
+ 	background: rgba(10, 10, 10, .7); /*this uses opacity of 70% for the background color*/
 	text-align: center;
 	/* removed border: 4px dashed white; */
 }
@@ -82,7 +82,9 @@ html, body {
 	/* removed text-align: center;*/
 }
 
-/* h1 {
+/* removed for simplicity... did not use headings
+
+h1 {
 	font-family: liebedoni-outline,sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -107,7 +109,7 @@ p {
     font-weight: 300;
     font-style: normal;
     font-size: 1em;
-    /* removedfont-family: "helvetica", sans-serif;
+    /* removed font-family: "helvetica", sans-serif;
     font-weight: 100; */
     line-height: 1.6;
     color: #fff;
@@ -133,7 +135,7 @@ nav li{
 
 nav a{
     display: inline block;
-    padding: 5px 10px;
+    padding: 10px 15px;
 }
 
 a{
